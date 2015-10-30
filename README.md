@@ -1,1 +1,1 @@
-# magento-blocks-reload
+# magento-ajax-blocks
