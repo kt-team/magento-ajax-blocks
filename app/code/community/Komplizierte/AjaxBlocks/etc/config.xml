@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Komplizierte_AjaxBlocks>
+            <version>0.1.0</version>
+        </Komplizierte_AjaxBlocks>
+    </modules>    
+	<frontend>
+        <secure_url>
+            <ajaxblocks>/ajaxblocks/</ajaxblocks>
+        </secure_url>
+        <routers>
+            <ajaxblocks>
+                <use>standard</use>
+                <args>
+                    <module>Komplizierte_AjaxBlocks</module>
+                    <frontName>ajaxblocks</frontName>
+                </args>
+            </ajaxblocks>
+        </routers>
+	</frontend>
+</config>

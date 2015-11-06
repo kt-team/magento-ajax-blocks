@@ -1,0 +1,21 @@
+{
+    "name":"komplizierte/modulekomplizierteajaxblocks",
+    "type":"magento-module",
+    "license":"",
+    "description": "",
+    "authors": [
+        {
+            "name": "Komplizierte Technologie",
+            "email": "a.putin@kmplzt.de"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/community/Komplizierte/AjaxBlocks", "app/code/community/Komplizierte/AjaxBlocks"],
+            ["app/etc/modules/Komplizierte_AjaxBlocks.xml", "app/etc/modules/Komplizierte_AjaxBlocks.xml"]           
+        ]
+    }
+}

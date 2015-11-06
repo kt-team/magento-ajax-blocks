@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Komplizierte_AjaxBlocks>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Komplizierte_AjaxBlocks>
+    </modules>
+</config>
